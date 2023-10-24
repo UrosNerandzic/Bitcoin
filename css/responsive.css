@@ -1,0 +1,185 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+@media(min-width:0){
+.section-three-h{
+    line-height: 35px;
+    font-size: 15px;
+    }
+.link-get{
+    margin: auto;
+    margin-bottom: 50px;
+}
+.bx-wrapper .bx-pager{
+    bottom:50px;
+}
+.section-item-two{
+    width: 30%;  
+    }
+.section-two-text{
+    font-size:15px;
+    line-height: 15px;
+}
+.section-four-span-2,
+.section-four-span-1
+{
+    padding-left: 0!important; 
+}
+.section-item-two{
+    text-align: center;
+}
+.line-green{
+    margin: auto;
+    align-items: center;
+}
+.section-four-p{
+    padding-left: 70px;
+}
+.section-p-color{
+    padding-top: 83px;
+}
+.span{
+    display: none;
+}
+.section-three-box,
+.section-three-box:hover{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+}
+
+
+
+@media( min-width:576px){
+.link-get{
+    margin:auto;
+    margin-bottom: 50px;
+}
+.span{
+    display: inline;
+}
+
+}
+
+
+
+
+@media(min-width:768px){
+.section-three-h{
+    line-height: 59px;
+    font-size: 40px;
+}
+.section-item-two{
+    width:100%;
+}
+.section-two-text{
+    font-size:16px;
+    line-height:32px;
+}
+.navbar{
+    padding-top: 5px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    margin-right: 10px;
+}
+.link-get{
+    margin-left: 2px;;
+}
+.bx-wrapper .bx-pager{
+    bottom:150px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a{
+    background: transparent;
+    box-sizing: border-box;
+    height: 9px;
+    width: 9px;
+    border: 1px solid #1FDB84;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #1FDB84;
+}
+.section-item-two{
+    text-align: left;
+}
+.line-green{
+    margin:unset;
+}
+
+.section-two{
+    height: 420px;
+}
+.section-three-box,
+.section-three-box:hover{
+    margin-bottom: -20px;
+    padding-bottom: -20px;
+    margin-top: 0px;
+}
+
+}
+
+
+@media(min-width:992px){
+.navbar-expand-md .navbar-nav .nav-link{
+    margin-right: 36px;
+}
+.navbar{
+    padding-top: 34px;
+}
+.slider-i{
+    padding-left: 125px;
+}
+.section-one-h{
+    padding-right: 45px;
+}
+.section-four-span-1,
+.section-four-span-2{
+    padding-left: 90px!important;
+}
+
+}
+
+
+@media(min-width:1200px){
+.section-one-div{
+    padding-right: 14px;
+    }
+.section-four-p{
+    padding-top: 80px;
+}
+.section-p-color{
+    padding-top: 128px;
+}
+.container{
+    max-width: 1140px;
+}
+    
+}
